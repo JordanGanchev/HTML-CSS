@@ -1,1 +1,41 @@
-/* TODO: style the html */
+@font-face {
+    font-family: "dan";
+    src: url("fonts/Righteous-Regular.ttf");
+
+}
+body {
+    background-color: darkred;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: dan, cursive;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #DFBF84 ;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Orienta";
+    src: url("fonts/Orienta-Regular.ttf");
+}
+
+p {
+    font-family: "Orienta", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    counter-reset: #f6f6f6;
+    text-align: center;
+
+}
