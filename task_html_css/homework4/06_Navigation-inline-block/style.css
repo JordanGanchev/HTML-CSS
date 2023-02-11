@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+.header {
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.header .title {
+    margin-right: 100px;
+}
+
+.navigation {
+    margin-right: auto;
+}
+
+.navigation .list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: auto;
+}
+
+.navigation .nav-item a {
+    text-decoration: none;
+    color: green;
+}
+main {
+    padding: 12px 32px;
+}
