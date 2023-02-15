@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+header,main,aside,footer {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0,4rem;
+    margin: 2px;
+    
+}
+main {
+
+    padding: 4rem;
+
+}
+header,footer {
+    flex-basis: 100%;
+}
+main {
+    display: flex;
+    flex-grow: 3;
+}
+ aside {
+    display: flex;
+    flex-grow: 1;
+} 
+main div {
+    text-align: center;
+}

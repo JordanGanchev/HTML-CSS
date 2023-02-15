@@ -1,0 +1,15 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+ ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    
+}
+i:hover {
+    background-color: aqua;
+    color: aqua;
+} 
