@@ -1,20 +1,8 @@
-body {
-    font-family: Helvetica, sans-serif;
-    line-height: 1,5;
-
+article {
+    width: 200px;
 }
-h2 {
-    font-family: Georgia, serif;
-    line-height: 1,2;
-}
-
-.section {
+.art {
     display: flex;
-    width: 50vw;
-    justify-content: flex-end;
-    gap: 20px;
-    
+    justify-content:space-evenly;
+    padding-top: 50px;
 }
-
-
-
